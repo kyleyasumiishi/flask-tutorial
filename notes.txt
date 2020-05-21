@@ -1,0 +1,1 @@
+application factory = Flask instance within a function. Any configuration, registration, and other setup the app needs happens inside the function, then the app will be returned.
