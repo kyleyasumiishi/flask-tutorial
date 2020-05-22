@@ -1,1 +1,44 @@
 application factory = Flask instance within a function. Any configuration, registration, and other setup the app needs happens inside the function, then the app will be returned.
+
+What is a module in Python?
+A file containing Python definitions and statements.
+A definition is
+A statement is
+The file name is the module name with the suffix .py appended.
+Within a module, the module's name (as a string) is available as the value of the global variable __name__.
+
+What is a package and how is it different than a module?
+A module is a single Python file that can be imported by other Python files.
+A package is essentially multiple modules packaged together.
+
+What is the instance folder in Flask?
+An attribute: Flask.instance_path
+A path to an instance folder, which is designed to not be under version control and be deployment specific. It's the perfect place to drop things that either change at runtime or config files.
+You can either explicitly provide the path of the instance folder when creating the Flask app or you can let Flask autodetect the instance folder.
+
+Databases
+Python comes with built-in support for SQLite in the sqlite3 module.
+SQLite is convenient because it doesn't require setting up a separate database server and is built-in to Python.
+However, if concurrent requests try to write to the db at the same time, they will slow down as each write happens sequentially.
+
+The first thing to do when working with a SQLite db (and most other Python db libraries) is to create a connection to it.
+Any queries and operations are performed using the connection, which is closed after the work is finished.
+In web apps, this connection is typically tied to the request. It is created at some point when handling a request, and closed before the response is sent.
+
+In SQLite, data is stored in tables and columns. These need to be created before you can store and retrieve data.
+
+For security, passwords should never be stored in the db directly. Instead, it's best practice to securely hash the password, and that hash is stored.
+
+Blueprints and Views
+What is a view?
+A view function is the code you write to respond to requests to your application.
+Flask uses patterns to match the incoming request URL to the view that should handle it.
+The view returns data that Flask turns into an outgoing response.
+Flask can also go the other direction and generate a URL to a view based on its name and arguments.
+
+What is a blueprint?
+A Blueprint is a way to organize a group of related views and other code.
+Rather than registering views and other code directly with an application, they are registered with a blueprint.
+Then the blueprint is registered with the application when it is available in the factory function.
+
+
