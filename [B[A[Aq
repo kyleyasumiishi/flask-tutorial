@@ -1,0 +1,119 @@
+[33mcommit 4717d90a701777bdee476ee9e87b2e945348670f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Fri May 22 14:39:36 2020 -0700
+
+    Added forward slash to create route, as urls must start with a leading slash
+
+[33mcommit f1374e44cecc4ac4aa2baf98f4846a9d57d050c0[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 21:22:38 2020 -0700
+
+    Added create view and template
+
+[33mcommit d02e219b8d023381a5311e32c65eec737c2989e2[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 21:06:52 2020 -0700
+
+    Created blog index.html
+
+[33mcommit e93d1d666dca33acc5117f7bda6b4570ae49acd7[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 20:59:21 2020 -0700
+
+    index route
+
+[33mcommit 8eaaa5201bec2ae88628c0f2eae6d741053e1f25[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 20:55:31 2020 -0700
+
+    Import and register blog blueprint in app factory
+
+[33mcommit a9a901c9412ac1b9ec198194f0231441e286789c[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 20:51:06 2020 -0700
+
+    Created blog blueprint
+
+[33mcommit 0fdc8b04bfb3026f9f2978a6617578b18a349feb[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 18:43:26 2020 -0700
+
+    Added css
+
+[33mcommit 561edad5d24244da78bad430cb6b4e630bf0f4de[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 18:19:51 2020 -0700
+
+    Created log in template
+
+[33mcommit c195a9128a122eaf978d89d142a0442d4f32627b[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 18:17:12 2020 -0700
+
+    Created register template
+
+[33mcommit 0ac6bfcfad2ebaa5fb41e5a068e2a23ac1e84aeb[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 18:11:17 2020 -0700
+
+    Created base layout
+
+[33mcommit 7343c08ec217ea168b12128440516f31857c2379[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Thu May 21 17:49:37 2020 -0700
+
+    Moved init_app function to bottom of application factory to resolve TypeError: close_db() takes 0 position arguments but 1 was given
+
+[33mcommit 38e44a305fdda1d091d0f0041b26078bd8c445a9[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 22:21:31 2020 -0700
+
+    Added logout
+
+[33mcommit 3f63f9f346bf2a2ac39d5055df09963f187e99fc[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 22:20:28 2020 -0700
+
+    Added login
+
+[33mcommit dbfcb59cd811e18630cb3c0d2d7ed7e415ec6b04[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 22:14:01 2020 -0700
+
+    Created register view
+
+[33mcommit a69f39ac415ddbf086a536f613d26f42ccdfe7c5[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 22:02:28 2020 -0700
+
+    Created authentication blueprint
+
+[33mcommit e2fdfb5956d26f9ecbec0710606ac8c963752d5c[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 21:55:06 2020 -0700
+
+    Register close_db and init_db_command functions with the application instance
+
+[33mcommit d86c8c3551a4312e077c217864687c8b6128d1d0[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 21:51:42 2020 -0700
+
+    Add Python functions to run SQL commands
+
+[33mcommit 421b6b434379ac5e213f60fabc019a3035e2af80[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 21:48:37 2020 -0700
+
+    Create db tables
+
+[33mcommit 7d928eed9156d3b8ffc697ea9d557c22b416a423[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 21:44:17 2020 -0700
+
+    Created connection to the db
+
+[33mcommit ff4235d30d988044d34b97bf75d1c92469d3625f[m
+Author: Kyle <k.yasumiishi@gmail.com>
+Date:   Wed May 20 21:30:22 2020 -0700
+
+    Created application factory
