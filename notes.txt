@@ -55,3 +55,13 @@ url_for() is also automatically available, and is used to generate URLs to views
 What does making a project installable mean?
 Making your project installable means that you can build a distribution file and install that in another environment, just like you installed Flask in your project's environment.
 This makes deploying your project the same as installing any other library, so you're using all the standard Python tools to manage everything.
+
+Questions
+assert
+with
+g
+' vs "
+b'text'
+
+todo without login
+add login
