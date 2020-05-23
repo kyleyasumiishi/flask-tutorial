@@ -11,7 +11,24 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 Clone the repository
-
 ```
 git clone https://github.com/kyleyasumiishi/flask-tutorial.git
+```
+Install dependencies
+```
+# cd into flask-tutorial directory
+pip install -e .
+```
+Set environment variables
+```
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+```
+Initialize the database
+```
+flask init-db
+```
+Run the application
+```
+flask run
 ```
