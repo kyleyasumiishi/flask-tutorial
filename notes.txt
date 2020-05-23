@@ -75,3 +75,8 @@ pen and paper lessons
 
 
 interactive git tutorial
+
+WSGI
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
+https://www.fullstackpython.com/web-development.html
+https://www.fullstackpython.com/object-relational-mappers-orms.html
