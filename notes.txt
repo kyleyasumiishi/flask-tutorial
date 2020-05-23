@@ -80,3 +80,7 @@ WSGI
 https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server
 https://www.fullstackpython.com/web-development.html
 https://www.fullstackpython.com/object-relational-mappers-orms.html
+
+
+do you need to set up venv when installing on another computer, or does it do that automatically?
+Add run test instructions

@@ -14,6 +14,12 @@ Clone the repository
 ```
 git clone https://github.com/kyleyasumiishi/flask-tutorial.git
 ```
+Create a virtual environment to manage dependencies
+```
+python -m venv venv
+cd venv\Scripts
+source activate
+```
 Install dependencies
 ```
 # cd into flask-tutorial directory
@@ -31,4 +37,19 @@ flask init-db
 Run the application
 ```
 flask run
+```
+
+### Testing
+
+Install pytest and coverage to run unit tests
+```
+pip install pytest coverage
+```
+Run the tests
+```
+pytest
+```
+Measure code coverage of tests
+```
+coverage run -m pytest
 ```
